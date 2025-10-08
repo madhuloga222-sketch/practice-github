@@ -15,10 +15,5 @@ def num(n):
         print(i)
 num(20)
 
-def year(e):
-    if e%4==0 or e%100==0 and e%400!=0:
-        print("leap year")
-    else:
-        print("not year")
-year(2025)
+
     
